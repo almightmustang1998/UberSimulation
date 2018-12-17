@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="366.0" prefWidth="485.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="faketaxi.MapController">
+    <children>
+        <Button fx:id="button" layoutX="68.0" layoutY="339.0" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="116.0" text="Book Ride" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="history" layoutX="225.0" layoutY="339.0" mnemonicParsing="false" onAction="#handleHistory" prefHeight="27.0" prefWidth="102.0" text="History">
+         <tooltip>
+            <Tooltip text="shows most recent trip from stack" />
+         </tooltip></Button>
+      <ImageView fitHeight="34.0" fitWidth="35.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plane.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="8.0" layoutY="39.0" text="Airport" />
+      <ImageView fitHeight="40.0" fitWidth="43.0" layoutX="315.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@school.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="314.0" layoutY="66.0" text="School" />
+      <ImageView fitHeight="51.0" fitWidth="35.0" layoutX="188.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@coffee.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="165.0" layoutY="57.0" text="Coffee Shop" />
+      <ImageView fitHeight="40.0" fitWidth="56.0" layoutX="176.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@book-cover-hardcover-256396.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="249.0" text="Library" />
+      <ImageView fitHeight="57.0" fitWidth="63.0" layoutX="7.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@burger.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="7.0" layoutY="240.0" text="McBurger" />
+      <ImageView fitHeight="80.0" fitWidth="77.0" layoutX="51.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hotel.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="64.0" layoutY="149.0" text="Hotel" />
+      <Label layoutX="335.0" layoutY="266.0" text="Supermarket" />
+      <ImageView fitHeight="80.0" fitWidth="116.0" layoutX="167.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zooanimals.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="207.0" layoutY="168.0" text="Zoo" />
+      <ImageView fitHeight="89.0" fitWidth="109.0" layoutX="330.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@supa.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

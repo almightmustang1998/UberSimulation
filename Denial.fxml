@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anotherOne" prefHeight="233.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="faketaxi.DenialController">
+   <children>
+      <Label layoutX="43.0" layoutY="8.0" prefHeight="33.0" prefWidth="463.0" text="REQUEST DENIED" textFill="#dd0e0e">
+         <font>
+            <Font name="System Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="68.0" prefHeight="53.0" prefWidth="408.0" text="Sorry, please enter a valid location.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="203.0" layoutY="163.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="27.0" prefWidth="101.0" text="OK">
+         <tooltip>
+            <Tooltip text="Click to go back" />
+         </tooltip></Button>
+      <Label layoutX="237.0" layoutY="146.0">
+         <tooltip>
+            <Tooltip text="click to go up" />
+         </tooltip>
+      </Label>
+      <Label layoutX="42.0" layoutY="113.0" prefHeight="27.0" prefWidth="453.0" text="You cannot get a ride to the place you are already at." textFill="#eb0909">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
